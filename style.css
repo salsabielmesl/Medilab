@@ -1,0 +1,107 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05); /* Softer shadow */
+    padding: 10px;                            /* Reduced padding */
+    margin: 6px;                              /* Smaller margin */
+    flex: 1 1 calc(25% - 12px);               /* Tighter width gap */
+    text-align: center;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 1.5em;                          /* Smaller headline */
+}
+
+.card p {
+    margin: 6px 0;
+    font-size: 0.75em;                         /* Smaller body text */
+}
+
+.card .view-all {
+    display: inline-block;
+    margin-top: 6px;
+    text-decoration: none;
+    font-size: 0.7em;
+    color: #007bff;
+}
+
+.card .percentage {
+    font-size: 0.75em;
+    color: green;
+}
+
+/* Smaller colored borders */
+.new-patients {
+    border-left: 3px solid green;
+}
+
+.opd-patients {
+    border-left: 3px solid blue;
+}
+
+.lab-tests {
+    border-left: 3px solid orange;
+}
+
+.total-earnings {
+    border-left: 3px solid red;
+}
+
+
+/* Smaller styles for cards */
+.appointments,
+.doctors,
+.staff,
+.operations,
+.admitted,
+.discharged {
+    border-radius: 6px;
+    text-align: center;
+    padding: 0.5rem 0.75rem;       /* Reduced padding */
+    font-size: 0.75rem;            /* Smaller text */
+    line-height: 1rem;
+    margin: 0.5rem 0;              /* Small vertical spacing */
+}
+
+/* Thinner border-left indicators */
+.appointments {
+    border-left: 3px solid #3b82f6;
+}
+
+.doctors {
+    border-left: 3px solid #1e40af;
+}
+
+.staff {
+    border-left: 3px solid #fbbf24;
+}
+
+.operations {
+    border-left: 3px solid #f97316;
+}
+
+.admitted {
+    border-left: 3px solid #22c55e;
+}
+
+.discharged {
+    border-left: 3px solid #ef4444;
+}

@@ -1,0 +1,18 @@
+:root {
+  --accent-color: #3498db;
+  --default-color: #333;
+  --background-color: #fff;
+  --surface-color: #f9f9f9;
+  --contrast-color: #fff;
+  --heading-color: #222;
+  --heading-font: Arial, sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--default-color);
+}
+
+h1 {
+  color: var(--accent-color);
+}

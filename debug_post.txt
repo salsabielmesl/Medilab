@@ -1,0 +1,14 @@
+Array
+(
+    [action] => update
+    [AppID] => 50
+    [PatientID] => 3
+    [DepID] => 4
+    [DocID] => 27
+    [AppDate] => 2025-07-15
+    [StartTime] => 12:15:00
+    [message] => hi
+    [Price] => 0
+    [Discount] => 0
+    [Total] => 0
+)
